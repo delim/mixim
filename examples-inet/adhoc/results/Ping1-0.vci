@@ -1,0 +1,44 @@
+file 21153 1426594852                                           
+version 2
+run Ping1-0-20150317-20:20:32-8076
+attr configname Ping1
+attr datetime 20150317-20:20:32
+attr experiment Ping1
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network Adhoc
+attr processid 8076
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+
+vector 12  Adhoc.host[1].pingApp[0]  pingTxSeq:vector  ETV
+attr interpolationmode  none
+attr title  "ping tx seq, vector"
+vector 14  Adhoc.host[1].networkLayer.arp  sentReq:vector  ETV
+attr title  "ARP request sent, vector"
+vector 16  Adhoc.host[1].networkLayer.arp  initiatedResolution:vector  ETV
+attr title  "ARP initiated resolutions, vector"
+vector 13  Adhoc.host[1].pingApp[0]  pingRxSeq:vector  ETV
+attr interpolationmode  none
+attr title  "ping rx seq, vector"
+vector 9  Adhoc.host[1].pingApp[0]  rtt:vector  ETV
+attr interpolationmode  none
+attr title  "ping round-trip time, vector"
+attr unit  s
+vector 10  Adhoc.host[1].pingApp[0]  numLost:vector  ETV
+attr interpolationmode  none
+attr title  "pings lost, vector"
+vector 17  Adhoc.host[1].networkLayer.arp  failedResolution:vector  ETV
+attr title  "ARP failed resolutions, vector"
+9	1233 5185 2785 227342 3.775786000001 299.597786000001 125 0.146657534446 2.365907534446 27.20244180575 12.280160978562
+10	6418 92 72239 207671 97.581286000001 274.737286000001 3 86 172 349 45261
+12	6510 9150 2359 227099 3.371378465555 299.371378465555 297 0 296 43956 8688636
+13	15660 3913 2785 227342 3.775786000001 299.597786000001 125 0 296 20510 4080678
+14	19573 955 2362 207230 3.371378465555 274.371378465555 32 1 1 32 32
+16	20528 355 2362 205802 3.371378465555 272.371378465555 12 1 1 12 12
+17	20883 270 188561 205799 248.371378465555 272.371378465555 9 1 1 9 9
